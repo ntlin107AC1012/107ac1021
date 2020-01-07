@@ -1,0 +1,458 @@
+
+@media (max-width: 1920px){
+    .loading{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: 9999;
+    }
+    
+    #progressbar{
+        height: 26px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 200px;
+        background: rgb(242, 219, 200);
+        border-radius: 10px;
+        margin: -20px 0 0 -100px;
+        padding: 2px;
+      }
+      #loading{
+        transition: all 500ms ease;
+        height: 20px;
+        width: calc(100% - 10px);
+        border-radius: 8px;
+        background: #271414;
+        position: absolute;
+        margin: 3px;
+        display: inline-block;
+        animation: load 3s ease infinite;
+      }
+      #load{
+        font-family: Arial;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -30px;
+        color: white;
+      }
+      
+      @keyframes load{
+        0%{
+          width: 2%;
+        }
+        10%{
+          width: 10%;
+        }
+      }
+    .header{
+        display: none;
+    }
+html {
+   width: 1920px;
+
+}
+
+.LOGO{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+body{
+    margin: 0px;
+}
+.layout {
+    background-color: white;
+    
+    margin-left: auto;
+ margin-right: auto;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding: 0px;
+}
+
+.showmenu{
+	display: none;
+}
+.nav_list{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:black;
+}
+.nav-sublist{
+    
+    
+    width: 300px;
+    display: none;
+    list-style: none;
+    position: absolute;
+    
+    padding: 0px;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
+    z-index: 9999;
+}
+.nav-sublist-text-1{
+    font-size: 26px;
+    color: white;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 36px;
+    font-weight: bolder;
+}
+.nav-sublist-text{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 36px;
+    font-weight: 700;
+}
+.nav-sublist-text-a{
+    color: white;
+    
+}
+.nav-sublist-text-story{
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    padding-left: 36px;
+}
+
+.nav_item_a:hover{
+    background-color: black;
+    color: white;
+}
+.nav_item:hover> .nav_item_a{
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration-line: none;
+    
+    
+}
+.nav_item_a{
+    display: block;
+
+    color: white;
+    font-size: 26px;
+    padding: 15px 36px;
+    border-bottom: none;
+    
+}
+.topic{
+    color: white;
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.poduct{
+    color: white;
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.brand{
+    color: white;
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.story{
+    color: white;
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.shop{
+    color: white;
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.tab-inner-1{
+    width: 1920px;
+}
+.cupppp{
+    width: 1920px;
+    height: 1000px;
+}
+.lots{
+    width: 1920px;
+    height: 1000px;
+    background-image:url(../image/topbig1.jpg)
+}
+.product{
+    width: 1920px;
+    height: 1439px;
+}
+
+.about{
+    width: 1920px;
+    height: 1722px;
+}
+.gif{
+    left: 80%;
+    top: 100%;
+position: absolute;
+    width: 320px;
+    height: 320px;
+    background: url(image/1.gif) no-repeat center;
+}
+}
+@media (max-width: 768px){
+    .tab-inner-1{
+        width: 768px;
+    }
+    .cupppp{
+        width: 768px;
+        height: 500px;
+    }
+    .lots{
+        width: 768px;
+        height: 1080px;
+        background-image:url(../image/topmiddle1.jpg)
+    }
+    .header{
+        display: none;
+    }
+    html{
+        width: 768px;
+    } 
+    
+    body{
+        width: 768px;
+        margin: 0px;
+    }
+    .layout {
+        background-color: white;
+        width: 768px;
+        margin-left: auto;
+     margin-right: auto;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     padding: 0px;
+    }
+    
+     .showmenu{
+        display: none;
+    }
+     .nav_list{
+         width: 768px;
+        height: 53px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+    .nav-sublist{
+        
+        
+        width: 150px;
+        display: none;
+        list-style: none;
+        position: absolute;
+        
+        padding: 0px;
+        background-color: black;
+        opacity: 0.9;
+        z-index: 9999;
+    }
+    .nav-sublist-text-1{
+        font-size: 20px;
+        color: white;
+        margin-top: 20px;
+        text-align: left;
+        padding-left: 18px;
+        font-weight: bolder;
+    }
+    .nav-sublist-text{
+        font-size: 18px;
+        color: white;
+        margin-bottom: 10px;
+        text-align: left;
+        padding-left: 18px;
+        font-weight: 700;
+    }
+    .nav-sublist-text-a{
+        color: white;
+        
+    }
+    .nav-sublist-text-story{
+        color: white;
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: left;
+        font-weight: 700;
+        padding-left: 18px;
+    }
+    
+    .nav_item_a:hover{
+        background-color: black;
+        color: white;
+    }
+    .nav_item:hover> .nav_item_a{
+        background-color: black;
+        color: white;
+    }
+    
+    a{
+        text-decoration-line: none;
+        
+        
+    }
+    .nav_item_a{
+        display: block;
+    
+        color: white;
+        font-size: 20px;
+        padding: 15px 18px;
+        border-bottom: none;
+        
+    }
+    .topic{
+        color: white;
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    .poduct{
+        color: white;
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    .brand{
+        color: white;
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    .story{
+        color: white;
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    .shop{
+        color: white;
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    
+}
+@media (max-width: 320px){
+    
+    .tab-inner-1{
+        width: 320px;
+    }
+    .cupppp{
+        width: 320px;
+        height: 200px;
+    }
+    .lots{
+        width: 320px;
+        height: 1080px;
+        background-image:url(../image/topsmall1.jpg)
+    }
+    html{
+        width: 320px;
+        background-color: black;
+    }
+    body{
+        width: 320px;
+        margin: 0px;
+    }
+    .layout{
+        width: 320px;
+        margin: 0px;
+        background-color: black;
+    }
+    
+    .navbox{
+        display: none;
+        
+    }
+    .tab-inner{
+        margin-top: 60px;
+    }
+    .header{
+        display: block;
+        position: relative;
+        height: 0;
+        background-color: black;
+        color: white;
+    }
+    
+    .menu{
+        list-style: none;
+        background-color: WHITE;
+        float: right;
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單結束*/
+        /*漸變效果*/
+        transition: max-height 2.3s;
+        
+        /*絕對定位疊在網頁上*/
+        position: absolute;
+        /*權重*/
+        z-index: 9999;
+        /*header 80px+1px boder 線條*/
+        top: 35px;
+        /* left:0 right:0表示滿版 */
+        left: 0;
+           right: 0;
+        
+        color: white;
+    }
+    .menu li{
+        float: none;
+        color: white;
+        
+        background-color: black;
+    }
+    .menu li a{
+        transition: all 0.3s;
+        display: block;
+        text-decoration: none;
+        color: white;
+      }
+    .menu li a:hover{
+        background-color: black;
+        color: white;
+      }
+    .showmenu{
+        display: block;
+        float: right;
+        margin: 1em;
+        height: 20px;
+        color: white;
+      }
+      /*jQuery點擊後動態在 body 加上 class */
+      .menu-show .menu{
+          max-height: 300px;
+          color:white;
+      }
+      .nav-sublist .li{
+          display: none;
+      }
+      .nav-sublist-text-1{
+          display: none;
+      }
+      .nav-sublist-text{
+          display: none;
+      }
+      .hr{
+          display: none;
+      }
+      
+      
+}
